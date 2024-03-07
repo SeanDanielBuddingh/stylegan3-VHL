@@ -9,8 +9,7 @@ dependencies:
   - click>=8.0
   - pillow=8.3.1
   - scipy=1.7.1
-  - pytorch=1.9.1
-  - cudatoolkit=11.1
+  - cudatoolkit>=11.1
   - requests=2.26.0
   - tqdm=4.62.2
   - ninja=1.10.2
@@ -22,3 +21,7 @@ dependencies:
     - pyopengl==3.1.5
     - imageio-ffmpeg==0.4.3
     - pyspng
+    - torchvision
+    - ipykernel
+    - scikit-learn
+    - torch
